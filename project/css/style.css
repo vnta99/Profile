@@ -99,4 +99,18 @@ body {
   font-size: 10px;
   line-height: 12px;
   letter-spacing: 1.5px;
+}
+
+@media (max-width: 400px) {
+  .box {
+    max-width: 400px;
+    background-position: left 195% top -313px, right 180% bottom -326px;
+    background-size: 622px 622px;
+  }
+  .box .container {
+    width: 326px;
+  }
+  .box .container__bg {
+    width: 326px;
+  }
 }/*# sourceMappingURL=style.css.map */

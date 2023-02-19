@@ -122,3 +122,19 @@ body {
 
 
 }
+@media(max-width:400px){
+    .box {
+        max-width: 400px;
+        background-position: left 195% top -313px, right 180% bottom -326px;
+        background-size: 622px 622px;
+            .container {
+            width: 326px;
+
+            &__bg {
+                width: 326px;
+
+            }
+
+        }
+    }
+} 
