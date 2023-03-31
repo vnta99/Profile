@@ -19,7 +19,6 @@ body {
   background-color: rgb(25, 161, 174);
   background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
   background-position: left -47% top -509px, right -47% bottom -560px;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,6 +38,7 @@ body {
   width: 350px;
   height: 140px;
   background-image: url(../images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
   border-radius: 15px 15px 0px 0px;
   position: relative;
   margin-bottom: 72px;
